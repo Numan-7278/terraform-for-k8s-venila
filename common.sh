@@ -1,3 +1,5 @@
+#kubernetes cluster common configuration for workers
+
 #!/bin/bash
 
 sudo apt update -y && sudo apt dist-upgrade -y
