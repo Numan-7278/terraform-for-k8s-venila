@@ -14,3 +14,13 @@ actual HCL
 
 # outputs.tf
 after creation what you want to print as a result
+# run on master after connecting 
+
+sudo kubectl get pods -n kube-system
+
+# Get join command for workers
+
+sudo kubeadm token create --print-join-command
+(Paste on all workers)
+
+kubectl get nodes
